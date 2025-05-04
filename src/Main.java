@@ -1,5 +1,3 @@
-import javax.sound.midi.Soundbank;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1");
@@ -36,10 +34,11 @@ public class Main {
         if (deliveryDistance > 100) {
             System.out.println("Доставки нет");
 
-        } else if (deliveryDistance >60) {
+        } else if (deliveryDistance > 60) {
             timeOneZoneDelivery += 2;
-        } else if (deliveryDistance >20) {
-            timeOneZoneDelivery += 1;}
+        } else if (deliveryDistance > 20) {
+            timeOneZoneDelivery += 1;
+        }
         {
             System.out.println("Потребуется дней доставки: " + timeOneZoneDelivery);
         }
@@ -47,35 +46,29 @@ public class Main {
         System.out.println("Задача 5");
         int monthNumber = 1;
 
-        switch(monthNumber) {
-        case 1:
-        case 2:
-        case 12:
-        System.out.println("Сезон зима");
-            break;
-        case 3:
-        case 4:
-        case 5:
-            System.out.println("Сезон весна");
-            break;
-        case 6:
-        case 7:
-        case 8:
-            System.out.println("Сезон лето");
-            break;
-        case 9:
-        case 10:
-        case 11:
-            System.out.println("Сезон осень");
-            break;
-        default:
-            System.out.println("Такого дня не существует");
+        switch (monthNumber) {
+            case 1:
+            case 2:
+            case 12:
+                System.out.println("Сезон зима");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Сезон весна");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Сезон лето");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Сезон осень");
+                break;
+            default:
+                System.out.println("Такого месяца не существует");
         }
     }
 }
-
-
-
-
-
-
