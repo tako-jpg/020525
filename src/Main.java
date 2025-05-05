@@ -41,7 +41,7 @@ public class Main {
         }
         System.out.println("Потребуется дней доставки: " + timeOneZoneDelivery);
 
-        System.out.println("Задача 5");
+        System.out.println("Задача 5 ");
         int monthNumber = 1;
 
         switch (monthNumber) {
