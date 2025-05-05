@@ -39,7 +39,7 @@ public class Main {
         } else if (deliveryDistance > 20) {
             timeOneZoneDelivery += 1;
         }
-        System.out.println("Потребуется дней доставки: " + timeOneZoneDelivery);
+        System.out.println("Потребуется дней доставки:  " + timeOneZoneDelivery);
 
         System.out.println("Задача 5");
         int monthNumber = 1;
