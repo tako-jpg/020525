@@ -22,9 +22,9 @@ public class Main {
         }
         System.out.println("Задача 3");
         int year = 2025;
-        if ((year >= 1584) && ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0))) {
+        if (year >= 1584 && year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
             System.out.println(year + " является високосным");
-        } else if (year >= 1584) {
+        } else {
             System.out.println(year + " не является високосным");
         }
         System.out.println("Задача 4");
@@ -39,9 +39,7 @@ public class Main {
         } else if (deliveryDistance > 20) {
             timeOneZoneDelivery += 1;
         }
-        {
-            System.out.println("Потребуется дней доставки: " + timeOneZoneDelivery);
-        }
+        System.out.println("Потребуется дней доставки: " + timeOneZoneDelivery);
 
         System.out.println("Задача №5");
         int monthNumber = 1;
